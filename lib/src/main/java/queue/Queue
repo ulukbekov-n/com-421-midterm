@@ -1,0 +1,42 @@
+package queue;
+
+import java.util.NoSuchElementException;
+
+public class Queue<T> {
+    private Node front;
+    private Node rear;
+    private int n;
+
+    private class Node {
+        private T item;
+        private Node next;
+    }
+
+    public Queue() {
+        front = null;
+        rear = null;
+        n = 0;
+    }
+
+    public boolean isEmpty() {
+        return front == null;
+    }
+
+    public int size() {
+        return n;
+    }
+
+    public void enqueue(T item) {
+        return null;
+    }
+
+    public T dequeue() {
+        
+        return null;
+    }
+
+    public T peek() {
+        
+        return null;
+    }
+}
